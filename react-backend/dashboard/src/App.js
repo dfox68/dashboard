@@ -1,19 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+//Include all of the sub-components
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <div className="container">
+      <div className="row">
+          <div className="jumbotron">
+              <h2 className="text-center">Don's Dashboard</h2>
+              <p className="text-center">
+                  <em>Star Tribune headlines along with Minneapolis and Austin, TX weather</em>
+              </p>
+          </div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="row">
+                    <div className="col-md-12">
+
+                        
+
+        </div>
       </div>
+    </div>
     );
   }
 }
